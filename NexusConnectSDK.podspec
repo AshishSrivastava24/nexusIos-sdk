@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -lC++' }
 
   s.source           = { :git => "https://github.com/AshishSrivastava24/nexusIos-sdk.git", :tag => "1.01" }
+  s.source_files     = 'NexusConnectSDK.framework/**/*.{h,m,mm}’
 
   s.frameworks = 'CFNetwork', 'Foundation', 'SystemConfiguration', 'UIKit' , 'CoreTelephony' , 'QuartzCore' , 'CoreMedia' , 'AVFoundation'  , 'ImageIO'
   s.libraries = 'z'
