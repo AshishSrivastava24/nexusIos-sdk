@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -lC++' }
 
-  s.source           = { :git => "https://github.com/AshishSrivastava24/nexusIos-sdk.git", :tag => "1.01" }
+  s.source           = { :git => "https://github.com/AshishSrivastava24/nexusIos-sdk.git", :tag => "1.02" }
 
   s.frameworks = 'CFNetwork', 'Foundation', 'SystemConfiguration', 'UIKit' , 'CoreTelephony' , 'QuartzCore' , 'CoreMedia' , 'AVFoundation'  , 'ImageIO'
   s.libraries = 'z'
@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.preserve_paths      = "NexusConnectSDK.framework" , "NexusConnectResources.bundle"
   s.public_header_files = "NexusConnectSDK.framework/**/*.h"
   s.vendored_frameworks = "NexusConnectSDK.framework"
-  s.ios.resource_bundle = { 'NexusConnectResources' => 'NexusConnectResources.bundle/**/*' }
+  s.ios.resource_bundle = { 'NexusConnectResources' => 'NexusConnectResources.bundle' }
 end
