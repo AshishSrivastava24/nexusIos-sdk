@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = "NexusConnectSDK"
   s.version          = "1.01"
   s.summary          = "NexusConnect iOS Static Library."
-  s.homepage         = "http://www.nexus.com"
+  s.homepage         = "http://corp.support.com/"
   s.license          = { :type => 'Commercial', :text => 'See http://developers.nexus.com/ios/terms' }
   s.author           = { "Nexus" => "support@nexus.com" }
   s.social_media_url = 'https://twitter.com/nexus'
