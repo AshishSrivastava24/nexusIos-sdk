@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'CFNetwork', 'Foundation', 'SystemConfiguration', 'UIKit' , 'CoreTelephony' , 'QuartzCore' , 'CoreMedia' , 'AVFoundation'  , 'ImageIO'
   s.libraries = 'z'
   
-  s.preserve_paths      = "NexusConnectSDK.framework" , "NexusConnectResources.bundle"
+  s.preserve_paths      = "NexusConnectSDK.framework"
   s.public_header_files = "NexusConnectSDK.framework/**/*.h"
   s.vendored_frameworks = "NexusConnectSDK.framework"
   s.ios.resource_bundle = { 'NexusConnectResources' => 'NexusConnectResources.bundle' }
