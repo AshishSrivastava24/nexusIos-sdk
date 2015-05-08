@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.preserve_paths      = "NexusConnectSDK.framework" , "NexusConnectResources.bundle"
   s.public_header_files = "NexusConnectSDK.framework/**/*.h"
   s.vendored_frameworks = "NexusConnectSDK.framework"
-  s.ios.resource_bundle = { 'NexusConnectResources' => 'NexusConnectResources.bundle' }
+  s.ios.resource_bundle = { 'NexusConnectResources' => 'NexusConnectResources.bundle/**/*' }
 end
